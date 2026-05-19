@@ -19,9 +19,13 @@ body {
 }
 
 /* Text styling*/
-.bold-text {
-    font-weight: 900;
+.accent-text {
     display: block;
+}
+
+.accent-text, .name, time {
+    font-weight: 900;
+    color: #99D930;
 }
 
 h1 {
@@ -35,7 +39,7 @@ h1 span {
 }
 
 h2 {
-    font-size: 42px;
+    font-size: 2.625rem; /* 42*/
     margin-top: 0;
     border-top: 1px solid #C4C4C4;
     border-bottom: 1px solid #C4C4C4;
@@ -72,7 +76,7 @@ a:hover, a:focus {
     color: #131313;
 }
 
-.link-btn {
+.btn {
     background-color: #99D930;
     color: #252525;
     padding: 10px 15px;
@@ -81,9 +85,15 @@ a:hover, a:focus {
     display: inline-block; /* crucial for navigation "buttons" */
 }
 
-.link-btn:hover, .link-btn:focus {
+.btn:hover, .btn:focus {
     background-color: #252525;
     color: #FFF;
+}
+
+.inverse .btn:hover,
+.inverse .btn:focus {
+    background-color: #fff;
+    color: #252525;
 }
 
 /* Layout and background*/
