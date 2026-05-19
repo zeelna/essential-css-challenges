@@ -9,7 +9,6 @@ body {
     font-variation-settings: "wdth" 100;
     /* Text styling*/
     font-size: 1.3125rem; /* 21px */
-    /* */
 }
 
 .container {
@@ -23,7 +22,9 @@ body {
     display: block;
 }
 
-.accent-text, .name, time {
+.accent-text,
+.name,
+time {
     font-weight: 900;
     color: #99D930;
 }
@@ -31,10 +32,9 @@ body {
 h1 {
     font-size: 3.75rem; /* 60px*/
     margin-top: 0;
-
 }
 
-h1 span {
+h1 .accent-text {
     font-size: 5rem;
 }
 
@@ -49,7 +49,7 @@ h2 {
     margin-bottom: 20px;
 }
 
-h2 span{
+h2 .accent-text {
     font-size: 3.75rem;
 }
 
@@ -72,8 +72,14 @@ a {
     color: #99D930;
 }
 
-a:hover, a:focus {
+a:hover,
+a:focus {
     color: #131313;
+}
+
+.inverse a:hover,
+.inverse a:focus {
+    color: #FFF;
 }
 
 .btn {
@@ -85,7 +91,8 @@ a:hover, a:focus {
     display: inline-block; /* crucial for navigation "buttons" */
 }
 
-.btn:hover, .btn:focus {
+.btn:hover,
+.btn:focus {
     background-color: #252525;
     color: #FFF;
 }
@@ -97,7 +104,8 @@ a:hover, a:focus {
 }
 
 /* Layout and background*/
-header, section {
+header,
+section {
     padding: 100px 0;
     background-color: #fff;
     color: #252525;
@@ -107,8 +115,3 @@ header, section {
     background-color: #252525;
     color: #fff;
 }
-
-/*
-1. Dont use height nor width
-2. Change display property
- */
