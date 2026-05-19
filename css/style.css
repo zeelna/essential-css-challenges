@@ -19,19 +19,14 @@ body {
 }
 
 /* Text styling*/
-h1, h2, h3, h4, h5, h6, p {
-    font-weight: 300;
-    padding-top: 0;
-    margin-top: 0;
-}
-
-.bold {
+.bold-text {
     font-weight: 900;
+    display: block;
 }
-
 
 h1 {
     font-size: 3.75rem; /* 60px*/
+    margin-top: 0;
 }
 
 h1 span {
@@ -40,6 +35,7 @@ h1 span {
 
 h2 {
     font-size: 2.625rem; /* 42*/
+    margin-top: 0;
 }
 
 h2 span{
@@ -48,15 +44,16 @@ h2 span{
 
 h3 {
     font-size: 2.25rem; /* 36px */
-    margin: 0;
+    margin-bottom: 0;
 }
 
-.small {
+p {
+    margin-bottom: 0;
+}
+
+.small-text {
     font-size: 1rem; /* 16px */
-}
-
-.newline {
-    display: block;
+    margin-top: 0; /* Without this, the h3{margin-bottom: 0} is essentially overridden by p{default-margin}*/
 }
 
 /* Navigation links*/
@@ -71,15 +68,12 @@ a:hover, a:focus {
 /* Layout and background*/
 header, section {
     padding: 100px 0;
+    background-color: #fff;
+    color: #252525;
 }
 
 .inverse {
     background-color: #252525;
     color: #fff;
-}
-
-.about-me {
-    background-color: #fff;
-    color: #252525;
 }
 
