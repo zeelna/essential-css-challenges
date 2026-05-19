@@ -1,0 +1,8 @@
+# Ignored directories when pushing to Git
+node_modules/
+dist/
+.vscode/
+.DS_Store
+*.log
+.vite/
+.idea/
