@@ -27,6 +27,7 @@ body {
 h1 {
     font-size: 3.75rem; /* 60px*/
     margin-top: 0;
+
 }
 
 h1 span {
@@ -34,8 +35,14 @@ h1 span {
 }
 
 h2 {
-    font-size: 2.625rem; /* 42*/
+    font-size: 42px;
     margin-top: 0;
+    border-top: 1px solid #C4C4C4;
+    border-bottom: 1px solid #C4C4C4;
+
+    /* Adding equal value space after the border*/
+    padding: 20px 0;
+    margin-bottom: 20px;
 }
 
 h2 span{
