@@ -69,19 +69,17 @@ a:hover, a:focus {
 }
 
 /* Layout and background*/
-.section-one {
-    background-color: #D7D7D7;
-}
-
-.section-two {
-    background-color: #FFEAEA;
-}
-
-.section-three {
-    background-color: #EAF9FF;
-    width: 100%;
-}
-
-section {
+header, section {
     padding: 100px 0;
 }
+
+header, .articles {
+    background-color: #252525;
+    color: #fff;
+}
+
+.about-me {
+    background-color: #fff;
+    color: #252525;
+}
+
