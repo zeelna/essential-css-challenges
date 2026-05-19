@@ -34,9 +34,17 @@ h1 {
     font-size: 3.75rem; /* 60px*/
 }
 
+h1 span {
+    font-size: 5rem;
+}
+
 h2 {
     font-size: 2.625rem; /* 42*/
     padding-top: 20px;
+}
+
+h2 span{
+    font-size: 3.75rem;
 }
 
 h3 {
@@ -46,6 +54,19 @@ h3 {
 
 .small {
     font-size: 1rem; /* 16px */
+}
+
+.newline {
+    display: block;
+}
+
+/* Navigation links*/
+a {
+    color: #99D930;
+}
+
+a:hover, a:focus {
+    color: #131313;
 }
 
 
