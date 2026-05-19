@@ -73,7 +73,7 @@ header, section {
     padding: 100px 0;
 }
 
-header, .articles {
+.inverse {
     background-color: #252525;
     color: #fff;
 }
