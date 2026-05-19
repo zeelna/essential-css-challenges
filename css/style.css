@@ -65,6 +65,20 @@ a:hover, a:focus {
     color: #131313;
 }
 
+.link-btn {
+    background-color: #99D930;
+    color: #252525;
+    padding: 10px 15px;
+    margin-top: 40px;
+    text-decoration: none;
+    display: inline-block; /* crucial for navigation "buttons" */
+}
+
+.link-btn:hover, .link-btn:focus {
+    background-color: #252525;
+    color: #FFF;
+}
+
 /* Layout and background*/
 header, section {
     padding: 100px 0;
@@ -77,3 +91,7 @@ header, section {
     color: #fff;
 }
 
+/*
+1. Dont use height nor width
+2. Change display property
+ */
