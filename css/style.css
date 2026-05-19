@@ -11,6 +11,7 @@ body {
     font-size: 1.3125rem; /* 21px */
 }
 
+/* Pattern to center content across site*/
 .container {
     width: 570px;
     margin: 0 auto;
@@ -18,6 +19,8 @@ body {
 }
 
 /* Text styling*/
+/* moves text onto new-line,
+because <span>, <a> <h1> ... are inline elements*/
 .accent-text {
     display: block;
 }
@@ -72,31 +75,36 @@ a {
     color: #99D930;
 }
 
+/* :focus is crucial for accessability (TAB, screen-readers etc) */
 a:hover,
 a:focus {
     color: #131313;
 }
 
+/* :focus is crucial for accessability (TAB, screen-readers etc) */
 .inverse a:hover,
 .inverse a:focus {
     color: #FFF;
 }
 
+/* Template to style <a href> links as accessible buttons*/
 .btn {
     background-color: #99D930;
     color: #252525;
     padding: 10px 15px;
     margin-top: 40px;
     text-decoration: none;
-    display: inline-block; /* crucial for navigation "buttons" */
+    display: inline-block; /* 'inline-block' 100% crucial for navigation 'buttons' */
 }
 
+/* :focus is crucial for accessability (TAB, screen-readers etc) */
 .btn:hover,
 .btn:focus {
     background-color: #252525;
     color: #FFF;
 }
 
+/* Buttons against sites dark background colors*/
 .inverse .btn:hover,
 .inverse .btn:focus {
     background-color: #fff;
